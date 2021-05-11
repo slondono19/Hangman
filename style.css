@@ -1,0 +1,86 @@
+
+body{
+
+    font-size: 62.5%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "MV Boli";
+}
+
+
+.hang-man{
+    width: 60vw;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2rem;
+    margin-top: 0;
+    letter-spacing: 10px;
+}
+
+
+
+
+.container{
+    font-size: 1rem;
+    font-weight: 600;
+    display: grid;
+    grid-template-rows: repeat(2, 50px);
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px;
+    margin-bottom: 0;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    transition: background-color .3s;
+}
+
+.btn-letters{
+    
+    font-size: 1.5rem;
+    width: 40px;
+    background-color: rgb(14, 112, 145);
+}
+
+.btn-reset{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    grid-column: -7/-5;
+    background-color: lightcoral;
+}
+
+button:hover{
+    background-color: lightcoral;
+}
+
+.btn-reset:hover{
+    background-color: black;
+}
+
+img{
+    height: 300px;
+}
+.container-alphabet{
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(4, 50px);
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 0;
+}
