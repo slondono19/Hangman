@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hangman</title>
+  </head>
+  <body>
+    <div class="hang-man">
+      <h1>Programming languages</h1>
+      <img src="images/1.png" id="graphics" alt="" style="height: 250px" />
+      <div class="container">
+        <h2 class="h2-lifes" id="tries"></h2>
+        <p class="word" id="word"></p>
+      </div>
+
+      <div class="container-alphabet">
+        <button
+          id="display"
+          class="btn-letters"
+          onclick="displayLetter('a'),    win();"
+        >
+          a
+        </button>
+        <button
+          id="display"
+          class="btn-letters"
+          onclick="displayLetter('b'),    win();"
+        >
+          b
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('c')">
+          c
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('d')">
+          d
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('e')">
+          e
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('f')">
+          f
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('g')">
+          g
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('h')">
+          h
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('i')">
+          i
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('j')">
+          j
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('k')">
+          k
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('l')">
+          l
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('m')">
+          m
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('n')">
+          n
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('o')">
+          o
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('p')">
+          p
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('q')">
+          q
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('r')">
+          r
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('s')">
+          s
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('t')">
+          t
+        </button>
+        <div></div>
+        <div></div>
+        <button id="display" class="btn-letters" onclick="displayLetter('u')">
+          u
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('v')">
+          v
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('w')">
+          w
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('x')">
+          x
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('y')">
+          y
+        </button>
+        <button id="display" class="btn-letters" onclick="displayLetter('z')">
+          z
+        </button>
+        <button id="display" class="btn-reset" onclick="reset()">Reset</button>
+      </div>
+    </div>
+
+    <script src="hangMan.js"></script>
+  </body>
+</html>
